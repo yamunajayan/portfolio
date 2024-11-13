@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "KronaOne";
+  src: url("./assets/fonts/Krona_One/KronaOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
