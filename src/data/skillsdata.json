@@ -1,0 +1,58 @@
+{
+  "SKILLS": {
+    "Front-End": {
+      "Languages": ["HTML", "CSS", "SASS", "JavaScript", "TypeScript"],
+      "Frameworks/Libraries": [
+        "React.js",
+        "React Router",
+        "Bootstrap 5",
+        "Electron"
+      ],
+      "Tools": ["Figma", "VS Code"],
+      "Concepts": ["DOM Manipulation", "Document Object Model"]
+    },
+    "Back-End": {
+      "Languages": ["Python", "JavaScript", "SQL"],
+      "Frameworks/Libraries": [
+        "Node.js",
+        "Express.js",
+        "Flask",
+        "Jinja",
+        "TensorFlow",
+        "Scikit-learn",
+        "SQLAlchemy",
+        "Requests",
+        "Selenium"
+      ],
+      "Tools": [
+        "Git",
+        "Jira",
+        "Confluence",
+        "Linux",
+        "Postman",
+        "Bitbucket",
+        "GitHub",
+        "Heroku",
+        "Jest"
+      ],
+      "Concepts/Technologies": [
+        "REST APIs",
+        "User Authentication",
+        "OAuth",
+        "Agile Development"
+      ]
+    },
+    "Database": {
+      "Databases": ["MySQL", "PostgreSQL"],
+      "Libraries/Tools": ["SQLAlchemy"]
+    },
+    "Data Science": {
+      "Languages/Tools": ["MATLAB", "Python"],
+      "Libraries/Frameworks": ["Matplotlib", "NumPy", "Pandas"],
+      "Concepts": ["Data Analysis"]
+    },
+    "APIs": {
+      "APIs": ["Web APIs", "Google Places API", "OpenAI"]
+    }
+  }
+}

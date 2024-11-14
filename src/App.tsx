@@ -2,12 +2,14 @@ import "./App.css";
 // import profileImage from "../src/assets/photos/yamuna.jpg";
 import About from "./components/About/About";
 import Header from "./components/Header/Header";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   return (
     <>
       <Header />
       <About />
+      <Skills />
       {/* <section className="bg-gray-900 md:flex font-custom p-4 md:p-8">
         <div className="md:w-1/2 text-white py-4">
           <h1 className="text-4xl font-bold text-white text-center py-4 md:text-left">
