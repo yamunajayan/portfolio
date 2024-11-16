@@ -5,7 +5,7 @@ import gmailLogo from "../../assets/logos/gmail.svg";
 
 const About = () => {
   return (
-    <section className="md:flex justify-between font-custom p-4 md:p-8 max-w-6xl lg:mx-auto">
+    <section className="md:flex justify-between font-custom p-4 md:p-8 max-w-5xl lg:mx-auto">
       <div className="md:w-1/2 text-white py-4 flex flex-col justify-center">
         <h1 className="text-4xl font-bold text-white text-center py-4 md:text-left">
           Hello there 👋🏽

@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        custom: ["KronaOne", "sans-serif"],
+        custom: ["sans-serif"],
       },
     },
   },

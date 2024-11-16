@@ -2,10 +2,10 @@ import skillsData from "../../data/skillsdata.json";
 
 const Skills = () => {
   return (
-    <section className="md:flex justify-between font-custom p-4 md:p-8 max-w-6xl lg:mx-auto text-white">
+    <section className="md:flex justify-between font-custom p-4 md:p-8 max-w-5xl lg:mx-auto text-white">
       {Object.entries(skillsData.SKILLS).map(([category, data], index) => {
         return (
-          <div key={index} className={` p-4 rounded-2xl`}>
+          <div key={index} className={` p-3 rounded-2xl`}>
             <h2
               className={`border-white text-center p-4 rounded-2xl ${
                 index % 3 === 0
