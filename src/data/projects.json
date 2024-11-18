@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "projectName": "Travel Itinerary Builder",
+    "projectPhoto": "/photos/travel-itinerary-builder.png",
+    "tools": [
+      "React",
+      "HTML",
+      "CSS",
+      "SASS",
+      "Express.js",
+      "Node.js",
+      "MySQL",
+      "OpenAI API",
+      "Google Places API"
+    ],
+    "githubLink": "https://github.com/yamunajayan/lavoyage_itinerary_builder-client",
+    "websiteLink": "https://lavouage.netlify.app/",
+    "description": "An AI-powered app to create personalized travel itineraries based on destinations, days, and transportation options."
+  },
+  {
+    "id": 2,
+    "projectName": "Flower Shop",
+    "projectPhoto": "/photos/flowershop.png",
+    "tools": ["React", "SASS", "Express", "Node.js"],
+    "githubLink": "https://github.com/yamunajayan/flowershop",
+    "websiteLink": "https://flowershop.example.com",
+    "description": "An e-commerce platform where users can search flowers by meaning, add items to a cart, and place orders."
+  },
+  {
+    "id": 3,
+    "projectName": "Food Recipe Finder",
+    "projectPhoto": "/photos/foot-recipe-finder.png",
+    "tools": ["HTML", "CSS", "SASS", "JavaScript", "Edamam API"],
+    "githubLink": "https://github.com/yamunajayan/brainfood",
+    "websiteLink": "https://foodrecipes.example.com",
+    "description": "A recipe search tool that allows users to find meals based on ingredients, cuisines, and dietary restrictions."
+  },
+  {
+    "id": 4,
+    "projectName": "Video Streaming Platform Prototype",
+    "projectPhoto": "/photos/brainflix.png",
+    "tools": ["React", "React Router", "CSS", "SASS", "Express", "Node.js"],
+    "githubLink": "https://github.com/yamunajayan/yamuna-jayan-brainflix",
+    "websiteLink": "https://videostream.example.com",
+    "description": "A visually engaging video streaming platform prototype featuring API integrations for seamless content delivery."
+  },
+  {
+    "id": 5,
+    "projectName": "The Bandsite",
+    "projectPhoto": "/photos/bandsite.png",
+    "tools": ["Javascript", "SASS", "HTML", "CSS", "POSTMAN", "RESTFUL API"],
+    "githubLink": "https://github.com/yamunajayan/yamuna-jayan-bandsite",
+    "websiteLink": "https://yamuna-bandsite.netlify.app/",
+    "description": "A website for a band, featuring information on upcoming shows and a photo gallery showcasing past performances and band events."
+  }
+]
