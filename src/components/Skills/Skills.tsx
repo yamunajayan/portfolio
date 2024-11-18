@@ -24,9 +24,11 @@ const Skills = () => {
                     {item}
                   </h3>
                   <div className="flex flex-wrap">
-                    {values.map((value) => {
+                    {values.map((value, index) => {
                       return (
-                        <p className="text-xs lg:text-base p-2">{value}</p>
+                        <p className="text-xs lg:text-base p-2" key={index}>
+                          {value}
+                        </p>
                       );
                     })}
                   </div>
