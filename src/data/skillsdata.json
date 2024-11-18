@@ -4,9 +4,10 @@
       "Languages": ["HTML", "CSS", "SASS", "JavaScript", "TypeScript"],
       "Frameworks/Libraries": [
         "React.js",
-        "React Router",
+        "Electron",
         "Bootstrap 5",
-        "Electron"
+
+        "React Router"
       ],
       "Tools": ["Figma", "VS Code"],
       "Concepts": ["DOM Manipulation", "Document Object Model"]
