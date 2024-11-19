@@ -17,7 +17,7 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
-    <Card.Root flexDirection="column" overflow="hidden" maxW="30%">
+    <Card.Root flexDirection="column" overflow="hidden" className="md:w-[30%]">
       <Image
         objectFit="cover"
         src={project.projectPhoto}
