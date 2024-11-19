@@ -20,11 +20,19 @@
   },
   {
     "id": 2,
-    "projectName": "Flower Shop",
-    "projectPhoto": "/photos/flowershop.png",
-    "tools": ["React", "SASS", "Express", "Node.js"],
-    "githubLink": "https://github.com/yamunajayan/flowershop",
-    "websiteLink": "https://flowershop.example.com",
+    "projectName": "Portfolio Project",
+    "projectPhoto": "/photos/portfolio.png",
+    "tools": [
+      "TypeScript",
+      "Tailwind CSS",
+      "Chakra UI",
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "githubLink": "https://github.com/yamunajayan/portfolio",
+    "websiteLink": "https://yamunajayan.netlify.app/",
     "description": "An e-commerce platform where users can search flowers by meaning, add items to a cart, and place orders."
   },
   {
@@ -53,5 +61,14 @@
     "githubLink": "https://github.com/yamunajayan/yamuna-jayan-bandsite",
     "websiteLink": "https://yamuna-bandsite.netlify.app/",
     "description": "A website for a band, featuring information on upcoming shows and a photo gallery showcasing past performances and band events."
+  },
+  {
+    "id": 6,
+    "projectName": "Flower Shop",
+    "projectPhoto": "/photos/flowershop.png",
+    "tools": ["React", "SASS", "Express", "Node.js"],
+    "githubLink": "https://github.com/yamunajayan/flowershop",
+    "websiteLink": "https://flowershop.example.com",
+    "description": "An e-commerce platform where users can search flowers by meaning, add items to a cart, and place orders."
   }
 ]
