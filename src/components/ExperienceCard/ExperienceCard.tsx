@@ -19,7 +19,10 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
   return (
     <div>
       <Stack className="py-2">
-        <Card.Root size="sm" className="p-4">
+        <Card.Root
+          size="sm"
+          className="p-4 bg-gradient-to-b from-gray-900 to-blue-900 text-gray-100"
+        >
           <Card.Header>
             <Heading className="text-3xl">{experience.job_title}</Heading>
             <div className="flex justify-between">
@@ -35,7 +38,7 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
             </div>
           </Card.Header>
           <Card.Body color="fg.muted">
-            <ul className="list-disc">
+            <ul className="list-disc text-gray-100">
               {experience.job_description.map((description, index) => {
                 return <li key={index}>{description}</li>;
               })}
