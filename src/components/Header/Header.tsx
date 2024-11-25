@@ -12,11 +12,24 @@ const Header = () => {
           <Link to={"/"} className="hover:cursor-pointer">
             <li className="text-yellow-600">Home</li>
           </Link>
-          <a href="#projects">
+          <a
+            href="#projects"
+            className="hover:cursor-pointer hover:text-yellow-600"
+          >
             <li>Projects</li>
           </a>
-          <li>Education</li>
-          <li>Experience</li>
+          <a
+            href="#skills"
+            className="hover:cursor-pointer hover:text-yellow-600"
+          >
+            <li>Skills</li>
+          </a>
+          <a
+            href="#experience"
+            className="hover:cursor-pointer hover:text-yellow-600"
+          >
+            <li>Experience</li>
+          </a>
         </ul>
       </nav>
     </header>

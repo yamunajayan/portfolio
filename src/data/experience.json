@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "job_title": "AI Training Engineer (Freelancer)",
+    "company": "Outlier",
+    "start_date": "Sept 2024",
+    "end_date": "Now",
+    "location": "Toronto, ON",
+    "job_description": [
+      "Debugged and resolved complex Python coding challenges to improve AI model training.",
+      "Demonstrated eagerness to learn by participating in group hackathons and completing individual full-stack projects, enhancing collaboration, innovation, and problem-solving skills."
+    ],
+    "tools_used": [
+      "Python",
+      "Full-stack Development",
+      "Collaborative Tools",
+      "AI Tools"
+    ]
+  },
+  {
+    "id": 2,
+    "job_title": "Senior Software System Engineer",
+    "company": "Analog Devices Inc",
+    "start_date": "Oct 2022",
+    "end_date": "Nov 2023",
+    "location": "Ottawa, ON",
+    "job_description": [
+      "Leveraged Python skills to develop scripts for automating amplifier testing and report generation, with technical documentation achieving a turnaround time of 2 weeks.",
+      "Executed cross-functional collaboration and contributed clean, readable code to Bitbucket.",
+      "Managed Git repositories and maintained Git branches, ensuring version control."
+    ],
+    "tools_used": ["Python", "Bitbucket", "Git", "Technical Documentation"]
+  },
+  {
+    "id": 3,
+    "job_title": "RF Product Integration Engineer",
+    "company": "Ericsson (subcontractor)",
+    "start_date": "Nov 2020",
+    "end_date": "Sep 2022",
+    "location": "Ottawa, ON",
+    "job_description": [
+      "Leveraged Python skills to develop scripts to automate radio testing.",
+      "Collaborated with cross-functional teams for effective testing.",
+      "Accountable for reporting testing roadblocks in Jira, facilitating effective communication with software teams to identify and resolve issues promptly."
+    ],
+    "tools_used": [
+      "Python",
+      "Jira",
+      "Cross-functional Collaboration",
+      "Testing Tools"
+    ]
+  },
+  {
+    "id": 4,
+    "job_title": "RF/Radar System Engineer",
+    "company": "Facial Stats Inc",
+    "start_date": "Jul 2020",
+    "end_date": "Oct 2020",
+    "location": "Toronto, ON",
+    "job_description": [
+      "Wore multiple hats to manage project timelines, budgets, and resources to keep projects on track in a fast-paced startup with an innovative mindset.",
+      "Demonstrated a high level of ownership, responsibility, and autonomy in driving complex, innovative engineering solutions from concept to execution."
+    ],
+    "tools_used": [
+      "Project Management Tools",
+      "Engineering Tools",
+      "Radar Systems"
+    ]
+  },
+  {
+    "id": 5,
+    "job_title": "RF Engineer",
+    "company": "Honeywell",
+    "start_date": "Oct 2015",
+    "end_date": "Jun 2017",
+    "location": "Bangalore, IN",
+    "job_description": [
+      "Collaborated with Indian and Canadian cross-functional teams to design and optimize microwave filters and multiplexers for satellite payloads.",
+      "Solved complex design and simulation challenges using in-house software and HFSS, ensuring timely completion of projects within budgetary constraints."
+    ],
+    "tools_used": [
+      "HFSS",
+      "Microwave Design Tools",
+      "In-house Software",
+      "Cross-functional Collaboration"
+    ]
+  }
+]
