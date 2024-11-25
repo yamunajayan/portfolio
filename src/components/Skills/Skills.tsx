@@ -16,10 +16,10 @@ const Skills = () => {
               <h2
                 className={`border-white text-center p-4 rounded-2xl ${
                   index % 3 === 0
-                    ? "bg-purple-400 hover:bg-green-500"
+                    ? "bg-purple-500 hover:bg-purple-700 bg-gradient-to-b from-purple-900 to-purple-500"
                     : index % 3 === 1
-                    ? "bg-blue-500 hover:bg-blue-600"
-                    : "bg-red-500 hover:bg-red-600"
+                    ? "bg-blue-500 hover:bg-blue-700 bg-gradient-to-b from-blue-900 to-blue-400"
+                    : "bg-red-500 hover:bg-red-700 bg-gradient-to-b from-red-900 to-red-400"
                 }`}
               >
                 {category}

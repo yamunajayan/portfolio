@@ -17,7 +17,11 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
-    <Card.Root flexDirection="column" overflow="hidden" className="md:w-[30%]">
+    <Card.Root
+      flexDirection="column"
+      overflow="hidden"
+      className="md:w-[30%] bg-gradient-to-b from-blue-900 to-gray-900 text-gray-100"
+    >
       <Image
         objectFit="cover"
         src={project.projectPhoto}
@@ -26,8 +30,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       />
       <Box>
         <Card.Body>
-          <Card.Title mb="2">{project.projectName}</Card.Title>
-          <Card.Description>{project.description}</Card.Description>
+          <Card.Title mb="2" className="text-xl">
+            {project.projectName}
+          </Card.Title>
+          <Card.Description className="text-gray-300">
+            {project.description}
+          </Card.Description>
           <HStack mt="4" className="flex flex-wrap">
             {project.tools.map((tool, index) => {
               return <Badge key={index}>{tool}</Badge>;
@@ -36,12 +44,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         </Card.Body>
         <Card.Footer>
           <Link to={project.githubLink}>
-            <Button bg="blue.300" className="px-2">
+            <Button bg="blue.500" className="px-2 hover:bg-blue-700">
               Github
             </Button>
           </Link>
           <Link to={project.websiteLink}>
-            <Button bg="blue.300" className="px-2">
+            <Button bg="blue.500" className="px-2 hover:bg-blue-700">
               Website
             </Button>
           </Link>
