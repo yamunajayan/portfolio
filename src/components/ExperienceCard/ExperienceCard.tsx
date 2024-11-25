@@ -1,12 +1,4 @@
-import {
-  Badge,
-  Box,
-  Card,
-  HStack,
-  Image,
-  Heading,
-  Stack,
-} from "@chakra-ui/react";
+import { Card, Heading, Stack } from "@chakra-ui/react";
 
 interface Experience {
   id: number;
