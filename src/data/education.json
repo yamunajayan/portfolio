@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "schoolName": "BrainStation",
+    "yearsOfStudy": "Aug 2024 - Nov 2024",
+    "location": "Toronto, Canada",
+    "degreeName": "Diploma in Software Engineering",
+    "areaOfSpecialization": "Full-stack development",
+    "url": "https://brainstation.io/",
+    "gpa": "92%"
+  },
+  {
+    "id": 2,
+    "schoolName": "University of Waterloo",
+    "yearsOfStudy": "Sep 2017 - Jan 2020",
+    "location": "Waterloo, Canada",
+    "degreeName": "Master of Applied Science",
+    "areaOfSpecialization": "Electrical and Computer Engineering",
+    "url": "https://uwaterloo.ca/",
+    "gpa": "79%"
+  },
+  {
+    "id": 3,
+    "schoolName": "Indian Institute of Space Science and Technology",
+    "yearsOfStudy": "Jun 2013- May 2015",
+    "location": "Trivandrum, India",
+    "degreeName": "Master of Technology",
+    "areaOfSpecialization": "RF and Microwave Engineering",
+    "url": "https://www.iist.ac.in/",
+    "gpa": "8.3"
+  },
+  {
+    "id": 4,
+    "schoolName": "Cochin University of Science and Technology",
+    "yearsOfStudy": "Jun 2008- Mar 2012",
+    "location": "Munnar, India",
+    "degreeName": "Bachelor of Technology",
+    "areaOfSpecialization": "Electronics Engineering",
+    "url": "https://www.iist.ac.in/",
+    "gpa": "71%"
+  }
+]

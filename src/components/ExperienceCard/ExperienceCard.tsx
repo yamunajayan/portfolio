@@ -21,14 +21,14 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
       <Stack className="py-2">
         <Card.Root
           size="sm"
-          className="p-4 bg-gradient-to-b from-gray-900 to-blue-900 text-gray-100"
+          className="p-4 bg-gradient-to-b from-gray-900 to-blue-900 text-gray-100 hover:border-white hover:border-2"
         >
           <Card.Header>
             <Heading className="text-3xl">{experience.job_title}</Heading>
-            <div className="flex justify-between">
-              <div className="flex">
-                <h3 className="text-xl">{experience.company}</h3>
-                <h3 className="text-xl">, {experience.location}</h3>
+            <div className="md:flex justify-between">
+              <div className="md:flex">
+                <h3 className="text-xl">{experience.company}, </h3>
+                <h3 className="text-xl">{experience.location}</h3>
               </div>
               <div className="flex">
                 <h3 className="text-xl">{experience.start_date} </h3>
