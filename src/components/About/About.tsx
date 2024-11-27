@@ -10,17 +10,26 @@ const About = () => {
         <h1 className="text-4xl md:text-6xl font-bold text-gray-300 text-center py-4 md:text-left">
           Hello there 👋🏽
         </h1>
-        <p className="font-light md:text-xl">I am a Full -Stack developer...</p>
+        <p className="font-light md:text-xl">I am Yamuna Jayan 👧🏻</p>
+        <p className="font-light md:text-xl">
+          I am a Full -Stack developer/ Software Engineer...
+        </p>
         <p className="font-light md:text-xl">
           I love coding, problem solving, creating new things..
         </p>
         <p className="font-light md:text-xl">
           I love coffees ☕ and pastries 🍰
         </p>
-        <p className="font-light md:text-xl">
-          I am a chatterbox and I think I am funny
+        <p className="font-light md:text-xl ">
+          I am a chatterbox and I think I am funny 😎
         </p>
-        <div className="flex py-4">
+        <h3
+          className="text-xl md:text-2xl pt-8 	
+text-yellow-500"
+        >
+          Contact me:
+        </h3>
+        <div className="flex py-4 items-center gap-4">
           <a href="https://www.linkedin.com/in/yamuna-jayan/">
             <img src={linkedInLogo} alt="Linked in Logo" />
           </a>
