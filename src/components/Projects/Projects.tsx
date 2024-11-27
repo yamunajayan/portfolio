@@ -8,10 +8,10 @@ const Projects = () => {
       className="md:flex flex-col justify-center font-custom p-4 md:p-8 max-w-5xl lg:mx-auto text-gray-300"
       id="projects"
     >
-      <div className="flex justify-center p-4">
+      <div className="flex justify-center px-4 py-8">
         <h2 className="text-4xl md:text-5xl">PROJECTS</h2>
       </div>
-      <div className="md:flex flex-wrap gap-3 justify-center">
+      <div className="md:flex flex-wrap gap-3 justify-between">
         {projectData.map((project) => {
           return <ProjectCard key={project.id} project={project} />;
         })}

@@ -20,7 +20,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     <Card.Root
       flexDirection="column"
       overflow="hidden"
-      className="md:w-[30%] bg-gradient-to-b from-blue-900 to-gray-900 text-gray-100"
+      className="md:w-[30%] bg-gradient-to-b from-blue-900 to-gray-900 text-gray-100 hover:border-white hover:border-2"
     >
       <Image
         objectFit="cover"
