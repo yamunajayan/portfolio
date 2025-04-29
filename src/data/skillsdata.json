@@ -4,6 +4,8 @@
       "Languages": ["HTML", "CSS", "SASS", "JavaScript", "TypeScript"],
       "Frameworks/Libraries": [
         "React.js",
+        "Next.js",
+        "Vue.js",
         "Electron",
         "Bootstrap 5",
 

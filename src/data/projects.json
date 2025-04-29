@@ -37,6 +37,15 @@
   },
   {
     "id": 3,
+    "projectName": "To-Do List App",
+    "projectPhoto": "/photos/todo.png",
+    "tools": ["Vue.js", "TypeScript", "TailwindCSS", "HTML", "Vite"],
+    "githubLink": "https://github.com/yamunajayan/todo-app",
+    "websiteLink": "https://daily-todo-tasks.netlify.app/",
+    "description": "A clean and responsive To-Do List application built with Vue.js, TypeScript, and TailwindCSS, featuring task creation, editing, filtering, and local storage support."
+  },
+  {
+    "id": 4,
     "projectName": "Food Recipe Finder",
     "projectPhoto": "/photos/foot-recipe-finder.png",
     "tools": ["HTML", "CSS", "SASS", "JavaScript", "Edamam API"],
@@ -45,7 +54,7 @@
     "description": "A recipe search tool that allows users to find meals based on ingredients, cuisines, and dietary restrictions."
   },
   {
-    "id": 4,
+    "id": 5,
     "projectName": "Video Streaming Platform Prototype",
     "projectPhoto": "/photos/brainflix.png",
     "tools": ["React", "React Router", "CSS", "SASS", "Express", "Node.js"],
@@ -54,7 +63,7 @@
     "description": "A visually engaging video streaming platform prototype featuring API integrations for seamless content delivery."
   },
   {
-    "id": 5,
+    "id": 6,
     "projectName": "The Bandsite",
     "projectPhoto": "/photos/bandsite.png",
     "tools": ["Javascript", "SASS", "HTML", "CSS", "POSTMAN", "RESTFUL API"],
@@ -63,7 +72,7 @@
     "description": "A website for a band, featuring information on upcoming shows and a photo gallery showcasing past performances and band events."
   },
   {
-    "id": 6,
+    "id": 7,
     "projectName": "Flower Shop",
     "projectPhoto": "/photos/flowershop.png",
     "tools": ["React", "SASS", "Express", "Node.js"],
