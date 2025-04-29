@@ -1,11 +1,17 @@
 import { Table } from "@chakra-ui/react";
 import educationData from "../../data/education.json";
+import { RefObject } from "react";
 
-const Education = () => {
+interface RefProps {
+  refProp: RefObject<HTMLElement>;
+}
+
+const Education = ({ refProp }: RefProps) => {
   return (
     <section
       className="md:flex flex-col justify-center font-custom p-4 md:p-8 max-w-5xl lg:mx-auto text-gray-300"
       id="education"
+      ref={refProp}
     >
       <div className="flex justify-center p-4">
         <h2 className="text-4xl md:text-5xl">EDUCATION</h2>

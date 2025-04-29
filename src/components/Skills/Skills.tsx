@@ -1,10 +1,16 @@
 import skillsData from "../../data/skillsdata.json";
+import { RefObject } from "react";
 
-const Skills = () => {
+interface RefProps {
+  refProp: RefObject<HTMLElement>;
+}
+
+const Skills = ({ refProp }: RefProps) => {
   return (
     <section
       className="flex flex-col justify-center font-custom p-4 md:p-8 max-w-5xl lg:mx-auto text-gray-300"
       id="skills"
+      ref={refProp}
     >
       <div className="flex justify-center p-4">
         <h2 className="text-4xl md:text-5xl">SKILLS</h2>

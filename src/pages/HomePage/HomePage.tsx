@@ -6,17 +6,36 @@ import Skills from "../../components/Skills/Skills";
 import { Provider } from "../../components/ui/provider";
 import Education from "../../components/Education/Education";
 import Footer from "../../components/Footer/Footer";
+import { useRef } from "react";
+import { RefObject } from "react";
 
 const HomePage = () => {
+  const projectsRef = useRef(null);
+  const skillsRef = useRef(null);
+  const experienceRef = useRef(null);
+  const educationRef = useRef(null);
+
+  const scrollToSection = (ref: RefObject<HTMLElement>) => {
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <>
       <Provider>
-        <Header />
+        <Header
+          scrollToSection={scrollToSection}
+          refs={{
+            projectsRef,
+            skillsRef,
+            experienceRef,
+            educationRef,
+          }}
+        />
         <About />
-        <Projects />
-        <Skills />
-        <Experience />
-        <Education />
+        <Projects refProp={projectsRef} />
+        <Skills refProp={skillsRef} />
+        <Experience refProp={experienceRef} />
+        <Education refProp={educationRef} />
         <Footer />
       </Provider>
     </>

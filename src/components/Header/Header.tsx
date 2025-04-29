@@ -1,7 +1,20 @@
 import { Link } from "react-router-dom";
-const Header = () => {
+
+import React, { RefObject } from "react";
+
+// Define types for the props
+interface HeaderProps {
+  scrollToSection: (ref: RefObject<HTMLElement>) => void;
+  refs: {
+    projectsRef: RefObject<HTMLElement>;
+    skillsRef: RefObject<HTMLElement>;
+    experienceRef: RefObject<HTMLElement>;
+    educationRef: RefObject<HTMLElement>;
+  };
+}
+const Header: React.FC<HeaderProps> = ({ scrollToSection, refs }) => {
   return (
-    <header className="md:flex justify-between font-custom p-4 md:p-8 md:max-w-5xl lg:mx-auto">
+    <header className="sticky top-0 left-0  md:flex justify-between font-custom p-4 md:p-8 md:max-w-5xl mx-auto bg-gray-900">
       <div className="text-gray-300 flex justify-center font-custom py-4 md:py-0">
         <Link to={"/"} className="hover:cursor-pointer">
           <h3 className="text-xl md:text-2xl font-bold">YAMUNA JAYAN</h3>
@@ -12,30 +25,34 @@ const Header = () => {
           <Link to={"/"} className="hover:cursor-pointer">
             <li className="text-yellow-600 md:text-lg">Home</li>
           </Link>
-          <a
-            href="#projects"
-            className="hover:cursor-pointer hover:text-yellow-600"
+
+          <li
+            className="md:text-lg hover:cursor-pointer hover:text-yellow-600"
+            onClick={() => scrollToSection(refs.projectsRef)}
           >
-            <li className="md:text-lg">Projects</li>
-          </a>
-          <a
-            href="#skills"
-            className="hover:cursor-pointer hover:text-yellow-600"
+            Projects
+          </li>
+
+          <li
+            className="md:text-lg hover:cursor-pointer hover:text-yellow-600"
+            onClick={() => scrollToSection(refs.skillsRef)}
           >
-            <li className="md:text-lg">Skills</li>
-          </a>
-          <a
-            href="#experience"
-            className="hover:cursor-pointer hover:text-yellow-600"
+            Skills
+          </li>
+
+          <li
+            className="md:text-lg hover:cursor-pointer hover:text-yellow-600"
+            onClick={() => scrollToSection(refs.experienceRef)}
           >
-            <li className="md:text-lg">Experience</li>
-          </a>
-          <a
-            href="#education"
-            className="hover:cursor-pointer hover:text-yellow-600"
+            Experience
+          </li>
+
+          <li
+            className="md:text-lg hover:cursor-pointer hover:text-yellow-600"
+            onClick={() => scrollToSection(refs.educationRef)}
           >
-            <li className="md:text-lg">Education</li>
-          </a>
+            Education
+          </li>
         </ul>
       </nav>
     </header>
