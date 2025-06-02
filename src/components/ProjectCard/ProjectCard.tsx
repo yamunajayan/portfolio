@@ -7,7 +7,7 @@ interface Project {
   projectPhoto: string;
   tools: string[];
   githubLink: string;
-  websiteLink: string;
+  websiteLink?: string;
   description: string;
 }
 
