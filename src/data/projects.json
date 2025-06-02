@@ -37,6 +37,36 @@
   },
   {
     "id": 3,
+    "projectName": "Frontend Mentor Challenge- Rock Paper Scissors",
+    "projectPhoto": "/photos/rock-paper-scissor.png",
+    "tools": ["Vue.js", "TypeScript", "TailwindCSS", "HTML", "Vite"],
+    "githubLink": "https://github.com/yamunajayan/Frontend-mentor---rock-paper-scissor",
+    "websiteLink": "https://frontend-mentor-rock-paper-scissor.vercel.app/",
+    "description": "A simple yet stylish Rock Paper Scissors game built with Vue 3, TypeScript, and Tailwind CSS. This app tracks scores, declares a winner, and offers a clean UI/UX with responsive interactivity."
+  },
+
+  {
+    "id": 4,
+    "projectName": "Frontend Mentor Challenge- Countries Api",
+    "projectPhoto": "/photos/countries-api.png",
+    "tools": [
+      "React",
+      "Redux",
+      "TypeScript",
+      "Railway",
+      "HTML",
+      "Tailwind CSS",
+      "Express.js",
+      "Node.js",
+      "RESTFUL API"
+    ],
+    "githubLink": "https://github.com/yamunajayan/frontend-mentor-countries-client",
+    "websiteLink": "https://frontend-mentor-restcountries.netlify.app/",
+    "description": "A frontend mentor challenge that displays a list of countries using the RESTful API."
+  },
+
+  {
+    "id": 5,
     "projectName": "To-Do List App",
     "projectPhoto": "/photos/todo.png",
     "tools": ["Vue.js", "TypeScript", "TailwindCSS", "HTML", "Vite"],
@@ -44,24 +74,7 @@
     "websiteLink": "https://daily-todo-tasks.netlify.app/",
     "description": "A clean and responsive To-Do List application built with Vue.js, TypeScript, and TailwindCSS, featuring task creation, editing, filtering, and local storage support."
   },
-  {
-    "id": 4,
-    "projectName": "Food Recipe Finder",
-    "projectPhoto": "/photos/foot-recipe-finder.png",
-    "tools": ["HTML", "CSS", "SASS", "JavaScript", "Edamam API"],
-    "githubLink": "https://github.com/yamunajayan/brainfood",
-    "websiteLink": "https://foodrecipes.example.com",
-    "description": "A recipe search tool that allows users to find meals based on ingredients, cuisines, and dietary restrictions."
-  },
-  {
-    "id": 5,
-    "projectName": "Video Streaming Platform Prototype",
-    "projectPhoto": "/photos/brainflix.png",
-    "tools": ["React", "React Router", "CSS", "SASS", "Express", "Node.js"],
-    "githubLink": "https://github.com/yamunajayan/yamuna-jayan-brainflix",
-    "websiteLink": "https://videostream.example.com",
-    "description": "A visually engaging video streaming platform prototype featuring API integrations for seamless content delivery."
-  },
+
   {
     "id": 6,
     "projectName": "The Bandsite",
@@ -71,13 +84,30 @@
     "websiteLink": "https://yamuna-bandsite.netlify.app/",
     "description": "A website for a band, featuring information on upcoming shows and a photo gallery showcasing past performances and band events."
   },
+
   {
     "id": 7,
+    "projectName": "Food Recipe Finder",
+    "projectPhoto": "/photos/foot-recipe-finder.png",
+    "tools": ["HTML", "CSS", "SASS", "JavaScript", "Edamam API"],
+    "githubLink": "https://github.com/yamunajayan/brainfood",
+    "description": "A recipe search tool that allows users to find meals based on ingredients, cuisines, and dietary restrictions."
+  },
+  {
+    "id": 8,
+    "projectName": "Video Streaming Platform Prototype",
+    "projectPhoto": "/photos/brainflix.png",
+    "tools": ["React", "React Router", "CSS", "SASS", "Express", "Node.js"],
+    "githubLink": "https://github.com/yamunajayan/yamuna-jayan-brainflix",
+    "description": "A visually engaging video streaming platform prototype featuring API integrations for seamless content delivery."
+  },
+
+  {
+    "id": 9,
     "projectName": "Flower Shop",
     "projectPhoto": "/photos/flowershop.png",
     "tools": ["React", "SASS", "Express", "Node.js"],
     "githubLink": "https://github.com/yamunajayan/flowershop",
-    "websiteLink": "https://flowershop.example.com",
     "description": "An e-commerce platform where users can search flowers by meaning, add items to a cart, and place orders."
   }
 ]

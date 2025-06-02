@@ -26,7 +26,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         objectFit="cover"
         src={project.projectPhoto}
         alt="Caffe Latte"
-        className="opacity-70 hover:opacity-100"
+        className="opacity-70 hover:opacity-100 h-[200px] w-full object-cover"
       />
       <Box>
         <Card.Body>
@@ -48,11 +48,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
               Github
             </Button>
           </Link>
-          <Link to={project.websiteLink}>
-            <Button bg="blue.500" className="px-2 hover:bg-blue-700">
-              Website
-            </Button>
-          </Link>
+          {project.websiteLink && (
+            <Link to={project.websiteLink}>
+              <Button bg="blue.500" className="px-2 hover:bg-blue-700">
+                Website
+              </Button>
+            </Link>
+          )}
         </Card.Footer>
       </Box>
     </Card.Root>
