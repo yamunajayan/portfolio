@@ -1,10 +1,39 @@
 [
   {
     "id": 1,
+    "job_title": "Volunteer Software Developer",
+    "company": "Reality AI Labs",
+    "start_date": "Dec 2024",
+    "end_date": "Present",
+    "location": "Toronto, ON",
+    "job_description": [
+      "Contributed to software development in a startup environment by building and implementing front-end features.",
+      "Developed and maintained scalable, high-performance user interfaces using ReactJS, Next.js, and TypeScript, focusing on reusable components and feature enhancements.",
+      "Translated Figma high-fidelity mockups into responsive UI components in close collaboration with the Product Design team.",
+      "Partnered with the Gen AI team to integrate front-end interfaces with scalable back-end services supporting AI agents.",
+      "Utilized Firebase for rapid prototyping and testing of application features during development.",
+      "Leveraged AI development tools like GitHub Copilot to improve productivity and accelerate development cycles.",
+      "Maintained codebase integrity through version control, code reviews, and bug fixes, ensuring system stability.",
+      "Followed Agile methodologies and contributed to team workflows using GitHub and automated CI/CD pipelines."
+    ],
+    "tools_used": [
+      "ReactJS",
+      "Next.js",
+      "TypeScript",
+      "Figma",
+      "Firebase",
+      "GitHub Copilot",
+      "CI/CD Pipelines",
+      "Agile",
+      "GitHub"
+    ]
+  },
+  {
+    "id": 2,
     "job_title": "AI Training Engineer (Freelancer)",
     "company": "Outlier",
     "start_date": "Sept 2024",
-    "end_date": "Now",
+    "end_date": "Dec 2024",
     "location": "Toronto, ON",
     "job_description": [
       "Debugged and resolved complex Python coding challenges to improve AI model training.",
@@ -18,7 +47,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "job_title": "Senior Software System Engineer",
     "company": "Analog Devices Inc",
     "start_date": "Oct 2022",
@@ -32,7 +61,7 @@
     "tools_used": ["Python", "Bitbucket", "Git", "Technical Documentation"]
   },
   {
-    "id": 3,
+    "id": 4,
     "job_title": "RF Product Integration Engineer",
     "company": "Ericsson (subcontractor)",
     "start_date": "Nov 2020",
@@ -51,7 +80,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "job_title": "RF/Radar System Engineer",
     "company": "Facial Stats Inc",
     "start_date": "Jul 2020",
@@ -68,7 +97,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "job_title": "RF Engineer",
     "company": "Honeywell",
     "start_date": "Oct 2015",
